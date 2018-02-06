@@ -1,0 +1,1680 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	color: #000;
+	/* 清除文字下划线 */
+	text-decoration: none;
+}
+.guanggao{
+	width: 100%;
+	height: 120px;
+	background-image: url('../img/toubu.png');
+	background-position: center;
+}
+.nav{
+	width: 100%;
+	height: 40px;
+	background: #333333;
+	color: #b0b0b0;
+	font-size: 12px;
+	line-height: 40px;
+}
+.neikuan{
+	width: 1226px;
+	height: 100%;
+	background: #333333;
+	margin: 0 auto;
+}
+.nav .neikuan .left{
+	width: 520px;
+	height: 100%;
+	/* background: green; */
+	float: left;
+}
+.nav .neikuan .right{
+	width: 320px;
+	height: 100%;
+	/* background: pink; */
+	float: right;
+}
+.nav .neikuan a{
+	color:#b0b0b0;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+.nav .neikuan a:hover{
+	color: #fff;
+}
+.nav .neikuan span{
+	color: #423c37;
+}
+.nav .neikuan .right .cart{
+	width: 120px;
+	height: 100%;
+	background: #424242;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	float: right;
+
+}
+.nav .neikuan .right .cart:hover{
+	background: white;
+	color: orange;
+}
+.nianhuo{
+	width: 100%;
+	height: 100px;
+	background: white;
+}
+.nianhuo .logo{
+	width: 55px;
+	height: 100%;
+	float: left;
+}
+.nianhuo .logo .orange{
+	width: 55px;
+	height: 55px;
+	background: #ff6700;
+	margin-top: 23px;
+	background-image: url('../img/mi.png');
+
+}
+.nianhuo .daohang{
+	width: 700px;
+	height: 100%;
+	background: white;
+	line-height: 100px;
+	float: left;
+}
+.nianhuo .nianhuoPIC{
+	width: 172px;
+	height: 100%;
+	background-image: url('../img/xiaomi.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+
+}
+.nianhuo .daohang a{
+	font-size: 16px;
+	color: #b0b0b0;
+	margin-right: 20px;
+}
+.nianhuo .daohang a:hover{
+	color: orange;
+}
+.nianhuo .search{
+	width: 297px;
+	height: 100%;
+	float: right;
+}
+.nianhuo .search .searchBox{
+	width: 243px;
+	height: 48px;
+	border: 1px solid #e0e0e0;
+	margin-top: 25px;
+}
+.nianhuo .search .searchBth{
+	width: 50px;
+	height: 48px;
+	border: 1px solid #e0e0e0;
+	margin-top:25px;
+	border-left: none;
+	float: right;
+	margin-right: 1px;
+	font-size: 30px;
+}
+.nianhuo .search .searchBth:hover{
+	background: orange;
+	color: #fff;
+}
+.nianhuo .neikuan{
+	width: 1226px;
+	height: 100px;
+	background: white;
+	margin: 0 auto;
+}
+.banner{
+	width: 100%;
+	height: 460px;
+	position: relative;
+}
+.banner .neikuan img{
+	width: 100%;
+	height: 460px;
+}
+.banner .neikuan .list{
+	width: 235px;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 62px;
+}
+.banner .neikuan .list ul{
+	width: 100%;
+	height: 420px;
+	
+	margin-top: 20px;
+}
+.banner .neikuan .list ul li{
+	width: 205px;
+	height: 42px;
+	padding-left: 30px;
+}
+.banner .neikuan .list ul li:hover{
+	background: orange;
+}
+.banner .neikuan .list ul li a{
+	display: block;
+	width: 205px;
+	height: 42px;
+	color: #fff;
+	line-height: 42px;	
+}
+.banner .neikuan .list ul li img{
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-top: -28px;
+	margin-right: 25px;
+}
+
+.banner .neikuan .zuoanniu{
+	width: 41px;
+	height: 69px;
+	/* background: green; */
+	background-image: url('../img/anniu.png');
+	background-position: 83px;
+	position: absolute;
+	top: 215px;
+	left: 296px;
+
+}
+.banner .neikuan .zuoanniu:hover{
+    background-position: 0px;
+
+	
+}
+.banner .neikuan .youanniu{
+	width: 41px;
+	height: 69px;
+	/* background: white; */
+	background-image: url('../img/anniu.png');
+	background-position: 41px;
+	position: absolute;
+	top: 215px;
+	right:61px;
+}
+.banner .neikuan .youanniu:hover{
+    background-position: 124px;
+}
+.banner .neikuan .lunbodian{
+	width: 126px;
+	height: 12px;
+	/* background: yellow; */
+	position: absolute;
+	right: 55px;
+	bottom: 27px;
+}
+.banner .neikuan .lunbodian .dian{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #992f2e;
+	border: 2px solid #b86f6d;
+	float: left;
+	margin-right: 10px;
+}
+.tuijian{
+	width: 100%;
+	height: 170px;
+	/* background: red; */
+	margin-top: 13px;
+}
+.tuijian .neikuan{
+	background: white;
+}
+.tuijian .neikuan .box{
+	width: 316px;
+	height: 170px;
+	background: blue;
+	float: left;
+	margin-right: 14px;
+}
+.tuijian .neikuan .box1{
+	width: 235px;
+	background: #5f5750;
+}
+.tuijian .neikuan .box1 .kuan{
+	width: 78px;
+	height: 85px;
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+}
+
+.tuijian .neikuan .box1 .iconfont{
+	font-size: 30px;
+	color: #cdcac8;
+	position: absolute;
+	top: 15px;
+	left: 24px;
+}
+.tuijian .neikuan .box1 .iconfont:hover{
+	color: #fff;
+}
+.tuijian .neikuan .box1 .kuan .wenzi:hover{
+	color: #fff;
+}
+.tuijian .neikuan .box .kuan .wenzi{
+	font-size: 12px;
+	margin-top: 60px;
+	text-align: center;
+	color:#cdcac8; 
+
+}
+
+.tuijian .neikuan .box2{
+	background-image: url('../img/1.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.tuijian .neikuan .box2:hover{
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1) ;
+}
+.tuijian .neikuan .box3{
+	background-image: url('../img/2.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.tuijian .neikuan .box3:hover{
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1) ;
+}
+.tuijian .neikuan .box4{
+	margin-right: 0;
+	background-image: url('../img/3.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.tuijian .neikuan .box4:hover{
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1) ;
+}
+.danpin{
+	width: 100%;
+	height: 380px;
+	/* background: red; */
+	margin-top: 45px;	
+}
+.danpin .neikuan{
+	background: white;
+}
+.danpin .neikuan .title{
+	width: 100%;
+	height: 40px;
+	/* background: yellowgreen; */
+}
+.danpin .neikuan .neirong{
+	width: 100%;
+	height: 340px;
+	/* background: pink; */
+}
+.danpin .neikuan .title .wenzi{
+	width: 144px;
+	height: 100%;
+	font-size: 20px;
+	color: #333;
+	/* background: yellow; */
+	float: left;
+}
+.danpin .neikuan .title .fanye{
+	width: 71px;
+	height: 100%;
+	/* background: #000; */
+	float: right;
+}
+.danpin .neikuan .title .fanye .pre{
+	width: 34px;
+	height: 22px;
+	border: 1px solid #e0e0e0;
+	margin-top: 7px;
+	color: #beb3b0;
+	font-size: 12px;
+	text-align: center;
+	line-height: 22px;
+	float: left;
+}
+.danpin .neikuan .title .fanye .next{
+	width: 34px;
+	height: 22px;
+	border: 1px solid #e0e0e0;
+	margin-top: 7px;
+	color: #beb3b0;
+	font-size: 12px;
+	text-align: center;
+	line-height: 22px;
+	border-left: 0px solid #000;
+	float: left;
+}
+.danpin .neikuan .neirong .list{
+	width: 234px;
+	height: 338px;
+	background: #fafafa;
+	float: left;
+	border-top: 1px solid #00c0a5;
+	margin-right: 14px;
+}
+.danpin .neikuan .neirong .list:nth-child(1){
+	border-top-color: #ffac13;
+}
+.danpin .neikuan .neirong .list:nth-child(2){
+	border-top-color: #83c44e;
+}
+.danpin .neikuan .neirong .list:nth-child(3){
+	border-top-color: #2196f3;
+}
+.danpin .neikuan .neirong .list:nth-child(4){
+	border-top-color: #e53935;
+}
+.danpin .neikuan .neirong .list:nth-child(5){
+	border-top-color: #00c05a;
+	margin-right: 0;
+}
+.danpin .neikuan .neirong .list img{
+	display: block;
+	margin: 40px auto 0 auto;
+	width: 160px;
+	height: 160px;
+}
+.danpin .neikuan .neirong .list .pinpai{
+	width: 100%;
+	color: #212121;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 24px;
+}
+.danpin .neikuan .neirong .list .des{
+	width: 100%;
+	color: #b0b0b0;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 14px;
+}
+.danpin .neikuan .neirong .list .price{
+	width: 100%;
+	color: #ff6709;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
+.main{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #f5f5f5;
+	margin-top: 35px;
+}
+.main .neikuan{
+	background: #f5f5f5;
+}
+.main .neikuan .jiadian{
+	width: 100%;
+	height: 653px;
+	/* background: red; */
+}
+.main .neikuan .jiadian .top{
+	width: 100%;
+	height: 48px;
+	margin-top: 55px;
+	/* background: pink; */
+}
+.main .neikuan .jiadian .top .left{
+	width: 100px;
+	height: 100%;
+	float: left;
+	font-size: 22px;
+	color: #333
+}
+.main .neikuan .jiadian .top .right{
+	width: 325px;
+	height: 100%;
+	float: right;
+	font-size: 22px;
+	color: #333;
+	/* background: white; */
+}
+.main .neikuan .jiadian .top .right a{
+	margin-left: 33px;
+	color: #333;
+	font-size: 14px;
+	line-height: 32px;
+	float: right;
+}
+.main .neikuan .jiadian .top .right a:hover{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700; 
+}
+
+.main .neikuan .jiadian .bottom{
+	width: 100%;
+	/* background: orange; */
+	overflow: hidden;
+}
+.main .neikuan .jiadian .bottom .lis{
+	width: 234px;
+	height: 300px;
+	background: #fff;
+	float: left;
+	margin-right: 14px;
+	margin-bottom: 14px;
+	transition: 1.5s;
+	overflow: hidden;
+}
+.main .neikuan .jiadian .bottom .comment{
+	width: 100%;
+	height: 78px;
+	background: #ff6700;
+	margin-top: 21px; 
+	transition: 0.5s;
+	padding-left: 10px;
+}
+.main .neikuan .jiadian .bottom .comment .pinjia a{
+	font-size: 12px;
+	color: white;
+	margin-top: 30px;	
+}
+.main .neikuan .jiadian .bottom .comment .ren a{
+	font-size: 12px;
+	color: white;
+	margin-top: 10px;
+
+
+}
+.main .neikuan .jiadian .bottom .lis:hover{
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+	transform: translateY(5px);
+	
+}
+.main .neikuan .jiadian .bottom .lis:hover .comment{
+	transform: translateY(-78px);
+}
+
+.main .neikuan .jiadian .bottom .lis:nth-child(5){
+	margin-right: 0;
+}
+.main .neikuan .jiadian .bottom .lis:nth-child(9){
+	margin-right: 0;
+	height: 143px;
+}
+.main .neikuan .jiadian .bottom .lis:nth-child(10){
+	margin-right: 0;
+	height: 143px;
+}
+.main .neikuan .jiadian .bottom .lis:nth-child(1){
+	height: 614px;
+}
+.main .neikuan .jiadian .bottom .pinpai{	
+	width: 100%;
+	color: #212121;
+	font-size: 14px;
+	text-align: center;
+	margin-top: -24px;
+}
+.main .neikuan .jiadian .bottom .des{
+	width: 100%;
+	color: #b0b0b0;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 14px;
+}
+.main .neikuan .jiadian .bottom .price{
+	width: 100%;
+	color: #ff6709;
+	font-size: 12px;
+	margin-top: 20px;
+	text-align: center;
+}
+.main .neikuan .jiadian .bottom .lis .zuo{
+	width: 100px;
+	height: 143px;
+	margin-top: 50px;
+	float: left;
+	color: black;
+}
+.main .neikuan .jiadian .bottom .lis .zuo .xiao{
+	font-size: 14px;
+	text-align: left;
+	margin-left: 28px;
+}
+.main .neikuan .jiadian .bottom .lis .zuo .mi{
+	font-size: 12px;
+	text-align: left;
+	margin-left: 30px;
+	color: orange;
+}
+.main .neikuan .jiadian .bottom .lis .you img{
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin-top: 40px;
+	float: right;
+	margin-right: 20px;
+}
+	
+.main .neikuan .zhineng{
+	width: 100%;
+	height: 653px;
+	/* background: red; */
+}
+.main .neikuan .zhineng .top{
+	width: 100%;
+	height: 48px;
+	margin-top: 40px;
+	/* background: pink; */
+}
+.main .neikuan .zhineng .top .left{
+	width: 100px;
+	height: 100%;
+	float: left;
+	font-size: 22px;
+	color: #333
+}
+.main .neikuan .zhineng .top .right{
+	width: 325px;
+	height: 100%;
+	float: right;
+	font-size: 22px;
+	color: #333;
+	/* background: white; */
+}
+.main .neikuan .zhineng .top .right a{
+	margin-left: 33px;
+	color: #333;
+	font-size: 14px;
+	line-height: 32px;
+	float: right;
+}
+.main .neikuan .zhineng .top .right a:hover{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700; 
+}
+
+.main .neikuan .zhineng .bottom{
+	width: 100%;
+	/* background: orange; */
+	overflow: hidden;
+}
+.main .neikuan .zhineng .bottom .liss{
+	width: 234px;
+	height: 300px;
+	background: #fff;
+	float: left;
+	margin-right: 14px;
+	margin-bottom: 14px;
+}
+.main .neikuan .zhineng .bottom .liss:hover{
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1) ;
+	transform: translateY(5px);
+}
+.main .neikuan .zhineng .bottom .liss:nth-child(5){
+	margin-right: 0;
+}
+.main .neikuan .zhineng .bottom .liss:nth-child(10){
+	margin-right: 0;
+	height: 143px;
+}
+.main .neikuan .zhineng .bottom .liss:nth-child(11){
+	margin-right: 0;
+	height: 143px;
+}
+.main .neikuan .zhineng .bottom .lis1{	
+    background-position: center;
+	background-size: cover;
+	background-image: url('../img/21.jpg');
+
+}
+.main .neikuan .zhineng .liss img{
+	display: block;
+	margin: 0 auto 0 auto;
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+}
+.main .neikuan .zhineng .bottom .pinpai{
+	width: 100%;
+	color: #212121;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 15px;
+}
+.main .neikuan .zhineng .bottom .des{
+	width: 100%;
+	color: #b0b0b0;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 14px;
+}
+.main .neikuan .zhineng .bottom .price{
+	width: 100%;
+	color: #ff6709;
+	font-size: 12px;
+	margin-top: 20px;
+	text-align: center;
+}
+.main .neikuan .zhineng .bottom .lis2{	
+    background-position: center;
+	background-size: cover;
+	background-image: url('../img/26.jpg');
+}
+.main .neikuan .zhineng .bottom .liss .you{
+	width: 100px;
+	height: 100px;
+	/* background: pink; */
+	float: right;
+	text-align: center;
+}
+.main .neikuan .zhineng .bottom .liss .you img{
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin-top: 40px;
+	margin-right: 80px;
+}	
+.main .neikuan .zhineng .bottom .liss .zuo{
+	width: 100px;
+	height: 143px;
+	margin-top: 42px;
+	float: left;
+	color: black;
+}
+.main .neikuan .zhineng .bottom .liss .zuo .xiaomi{
+	font-size: 14px;
+	text-align: left;
+	margin-left: 25px;
+}
+.main .neikuan .zhineng .bottom .liss .zuo .mimi{
+	font-size: 12px;
+	text-align: left;
+	margin-left: 30px;
+	color: orange;
+}
+.main .neikuan .zhineng .bottom .liss .youu{
+	width: 100px;
+	height: 100px;
+	/* background: pink; */
+	float: right;
+
+}
+.main .neikuan .zhineng .bottom .liss .zuoo{
+	width: 100px;
+	height: 143px;
+	margin-top: 50px;
+	float: left;
+	color: black;
+}
+.main .neikuan .zhineng .bottom .liss .zuoo .liulan{
+	font-size: 16px;
+	text-align: left;
+	margin-left: 30px;
+}
+.main .neikuan .zhineng .bottom .liss .zuoo .remen{
+	font-size: 12px;
+	text-align: left;
+	margin-left: 30px;
+	color: orange;
+}
+
+
+.main .neikuan .zhineng .bottom .liss .youu img{
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin-top: 50px;
+	margin-right: 80px;
+}
+
+.main .neikuan .repin{
+	width: 100%;
+	height: 475px;
+    
+    margin-top: 21px;
+}
+.main .neikuan .repin .top{
+	width: 100%;
+	height: 59px;
+	font-size: 20px;
+	line-height: 59px;
+	
+}
+.main .neikuan .repin .content{
+	width: 100%;
+	height: 420px;
+}
+.main .neikuan .repin .content .model{
+	width: 296px;
+	height: 100%;
+	margin-right: 14px;
+	float: left;
+	background: white;
+}
+.main .neikuan .repin .content .model:hover{
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1) ;
+	transform: translateY(5px);
+}
+.main .neikuan .repin .content .model:nth-child(4){
+	margin-right: 0;
+}
+.main .neikuan .repin .content .model img{
+	width: 100%;
+	height: 220px;
+}
+.main .neikuan .repin .content .model a{
+	display: block;
+}
+.main .neikuan .repin .content .model p{
+	width: 240px;
+	height: 60px;
+	padding-left: 28px;
+	padding-right: 28px;
+	margin-top: 34px;
+	font-size: 14px;
+	color: #333;
+}
+.main .neikuan .repin .content .model p a{
+	color: #333;
+}
+.main .neikuan .repin .content .model .comment{
+	width: 240px;
+	padding-right: 28px;
+	padding-left: 28px;
+	color: #ccc;
+	font-size: 12px;
+	margin-top: 20px;
+}
+.main .neikuan .repin .content .model .last{
+	width: 100%;
+	padding-right: 28px;
+	padding-left: 28px;
+	margin-top: 20px;
+
+}
+.main .neikuan .repin .content .model .last .lastNAME{
+	display: inline;
+}
+.main .neikuan .repin .content .model .last .jiage{
+	color: red;
+	font-size: 18px;
+}
+.main .neikuan .dapei{
+	width: 100%;
+	height: 653px;
+	/* background: red; */
+}
+.main .neikuan .dapei .top{
+	width: 100%;
+	height: 48px;
+	margin-top: 40px;
+	/* background: pink; */
+}
+.main .neikuan .dapei .top .left{
+	width: 100px;
+	height: 100%;
+	float: left;
+	font-size: 22px;
+	color: #333
+}
+.main .neikuan .dapei .top .right{
+	width: 325px;
+	height: 100%;
+	float: right;
+	font-size: 22px;
+	color: #333;
+	/* background: white; */
+}
+.main .neikuan .dapei .top .right a{
+	margin-left: 33px;
+	color: #333;
+	font-size: 14px;
+	line-height: 32px;
+	float: right;
+}
+.main .neikuan .dapei .top .right a:hover{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700; 
+}
+.main .neikuan .dapei .bottom{
+	width: 100%;
+	/* background: orange; */
+	overflow: hidden;
+}
+.main .neikuan .dapei .bottom .liss{
+	width: 234px;
+	height: 300px;
+	background: #fff;
+	float: left;
+	margin-right: 14px;
+	margin-bottom: 14px;
+}
+.main .neikuan .dapei .bottom .liss:hover{
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1) ;
+	transform: translateY(5px);
+}
+.main .neikuan .dapei .bottom .liss:nth-child(5){
+	margin-right: 0;
+}
+.main .neikuan .dapei .bottom .liss:nth-child(10){
+	margin-right: 0;
+	height: 143px;
+}
+.main .neikuan .dapei .bottom .liss:nth-child(11){
+	margin-right: 0;
+	height: 143px;
+}
+.main .neikuan .dapei .bottom .lis1{	
+    background-position: center;
+	background-size: cover;
+	background-image: url('../img/d1.jpg');
+
+}
+.main .neikuan .dapei .liss img{
+	display: block;
+	margin: 0 auto 0 auto;
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+}
+.main .neikuan .dapei .bottom .pinpai{
+	width: 100%;
+	color: #212121;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 15px;
+}
+.main .neikuan .dapei .bottom .des{
+	width: 100%;
+	color: #000;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 14px;
+}
+.main .neikuan .dapei .bottom .price{
+	width: 100%;
+	color: #ff6709;
+	font-size: 12px;
+	margin-top: 10px;
+	text-align: center;
+	margin-left: -15px;
+}
+.main .neikuan .dapei .bottom .lis2{	
+    background-position: center;
+	background-size: cover;
+	background-image: url('../img/d6.jpg');
+}
+.main .neikuan .dapei .bottom .liss .you{
+	width: 100px;
+	height: 100px;
+	/* background: pink; */
+	float: right;
+	text-align: center;
+}
+.main .neikuan .dapei .bottom .liss .you img{
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin-top: 40px;
+	margin-right: 80px;
+}	
+.main .neikuan .dapei .bottom .liss .zuo{
+	width: 100px;
+	height: 143px;
+	margin-top: 42px;
+	text-align: center;
+	/* background: pink; */
+	float: left;
+	color: black;
+}	
+.main .neikuan .dapei .bottom .liss .youu{
+	width: 100px;
+	height: 100px;
+	/* background: pink; */
+	float: right;
+
+}
+.main .neikuan .dapei .bottom .liss .zuoo{
+	width: 100px;
+	height: 143px;
+	margin-top: 42px;
+	text-align: center;
+	/* background: pink; */
+	float: left;
+	color: black;
+}
+.main .neikuan .dapei .bottom .liss .youu img{
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin-top: 50px;
+	margin-right: 80px;
+}
+.main .neikuan .dapei .bottom .liss .zuo{
+	width: 100px;
+	height: 143px;
+	margin-top: 50px;
+	float: left;
+	color: black;
+}
+.main .neikuan .dapei .bottom .liss .zuo .dianchi{
+	font-size: 10px;
+	text-align: left;
+	margin-left: 26px;
+}
+.main .neikuan .dapei .bottom .liss .zuo .jiage{
+	font-size: 12px;
+	text-align: left;
+	margin-left: -15px;
+	color: orange;
+}
+.main .neikuan .neirong{
+	width: 100%;
+	height: 480px;
+	margin-top: 19px;
+}
+.main .neikuan .neirong .neiTop{
+	width: 100%;
+	height: 60px;	
+	line-height: 60px
+}
+.main .neikuan .neirong .neiList{
+	width: 296px;
+	height: 419px;
+	background: #fff;
+	margin-right: 14px;
+	border-top: 1px solid #ffac13;
+	float: left;
+	position: relative;
+}
+.main .neikuan .neirong .neiList:hover{
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1) ;
+	transform: translateY(5px);
+}
+.main .neikuan .neirong .neiList:nth-child(4){
+	margin-right: 0;
+	border-top: 1px solid #90ca60;
+}
+.main .neikuan .neirong .neiList:nth-child(3){
+	border-top: 1px solid #e53935;
+}
+.main .neikuan .neirong .neiList:nth-child(2){
+	border-top: 1px solid #2196f3;
+}
+.main .neikuan .neirong .neiList .box1{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #ffac13;
+	margin-top: 49px;
+}
+.main .neikuan .neirong .neiList .box2{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 25px;
+}
+.main .neikuan .neirong .neiList .box2 a{
+	color: #333;
+}
+.main .neikuan .neirong .neiList .box3{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;	
+	margin-top: 13px;
+}
+.main .neikuan .neirong .neiList .box3 a{
+	color: #b0b0b0;
+}
+.main .neikuan .neirong .neiList .box4{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 20px;
+}
+.main .neikuan .neirong .neiList .box4 a{
+	color: #b0b0b0;
+}
+.main .neikuan .neirong .neiList .box5{
+	width: 100%;
+	margin-top: 20px;
+}
+.main .neikuan .neirong .neiList .box5 img{
+	width: 216px;
+	height: 154px;
+	display: block;
+	margin: 0 auto;
+}
+.main .neikuan .neirong .neiList .box6{
+	width: 100%;
+	height: 10px;
+	margin-top: 27px;
+}
+.main .neikuan .neirong .neiList .box6 .dot{
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #b0b0b0;
+	float: left;
+	margin-right: 28px;
+}
+.main .neikuan .neirong .neiList .box6 .dot:nth-child(1){
+	margin-left: 111px;
+	border: 2px solid #ff6b07;
+	background: #fff;
+}
+.main .neikuan .neirong .neiList .box7{
+	width: 21px;
+	height: 47px;
+	background: #ccc;
+	position: absolute;
+	top:0;
+	bottom:0;
+	margin: auto 0;
+	right: 0px;
+	text-align: center;
+	line-height: 47px;
+	display: none;
+}
+.main .neikuan .neirong .neiList:hover .box7{
+    display: block;
+}
+.main .neikuan .neirong .neiList .box8{
+	width: 21px;
+	height: 47px;
+	background: #ccc;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	margin: auto 0;
+	left: 0px;
+	text-align: center;
+	line-height: 47px;
+	display: none;
+}
+.main .neikuan .neirong .neiList:hover .box8{
+    display: block;
+}
+.main .neikuan .neirong .neiList .box11{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #90ca60;
+	margin-top: 49px;
+}
+.main .neikuan .neirong .neiList .box22{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 25px;
+}
+.main .neikuan .neirong .neiList .box22 a{
+	color:#333;
+}
+.main .neikuan .neirong .neiList .box33{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;	
+	margin-top: 13px;
+}
+.main .neikuan .neirong .neiList .box33 a{
+	color: #b0b0b0;
+}
+.main .neikuan .neirong .neiList .box44{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 20px;
+}
+.main .neikuan .neirong .neiList .box44 a{
+	color: #b0b0b0;
+}
+.main .neikuan .neirong .neiList .box55{
+	width: 100%;
+	margin-top: 20px;
+}
+.main .neikuan .neirong .neiList .box55 img{
+	width: 216px;
+	height: 154px;
+	display: block;
+	margin: 0 auto;
+}
+.main .neikuan .neirong .neiList .box66{
+	width: 100%;
+	height: 10px;
+	margin-top: 27px;
+}
+.main .neikuan .neirong .neiList .box66 .dot{
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #b0b0b0;
+	float: left;
+	margin-right: 28px;
+}
+.main .neikuan .neirong .neiList .box66 .dot:nth-child(1){
+	margin-left: 111px;
+	border: 2px solid #ff6b07;
+	background: #fff;
+}
+.main .neikuan .neirong .neiList .box77{
+	width: 21px;
+	height: 47px;
+	background: #ccc;
+	position: absolute;
+	top:0;
+	bottom:0;
+	margin: auto 0;
+	right: 0px;
+	text-align: center;
+	line-height: 47px;
+	display: none;
+}
+.main .neikuan .neirong .neiList:hover .box77{
+    display: block;
+}
+.main .neikuan .neirong .neiList .box88{
+	width: 21px;
+	height: 47px;
+	background: #ccc;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	margin: auto 0;
+	left: 0px;
+	text-align: center;
+	line-height: 47px;
+	display: none;
+}
+.main .neikuan .neirong .neiList:hover .box88{
+    display: block;
+}
+.main .neikuan .neirong .neiList .box111{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #21a3f6;
+	margin-top: 49px;
+}
+.main .neikuan .neirong .neiList .box222{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 25px;
+}
+.main .neikuan .neirong .neiList .box222 a{
+	color:#333;
+}
+.main .neikuan .neirong .neiList .box333{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;	
+	margin-top: 13px;
+}
+.main .neikuan .neirong .neiList .box333 a{
+	color: #b0b0b0;
+}
+
+.main .neikuan .neirong .neiList .box555{
+	width: 100%;
+	margin-top: 50px;
+}
+.main .neikuan .neirong .neiList .box555 img{
+	width: 216px;
+	height: 154px;
+	display: block;
+	margin: 0 auto;
+}
+.main .neikuan .neirong .neiList .box666{
+	width: 100%;
+	height: 10px;
+	margin-top: 47px;
+}
+.main .neikuan .neirong .neiList .box666 .dot{
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #b0b0b0;
+	float: left;
+	margin-right: 28px;
+}
+.main .neikuan .neirong .neiList .box666 .dot:nth-child(1){
+	margin-left: 111px;
+	border: 2px solid #ff6b07;
+	background: #fff;
+}
+.main .neikuan .neirong .neiList .box777{
+	width: 21px;
+	height: 47px;
+	background: #ccc;
+	position: absolute;
+	top:0;
+	bottom:0;
+	margin: auto 0;
+	right: 0px;
+	text-align: center;
+	line-height: 47px;
+	display: none;
+}
+.main .neikuan .neirong .neiList:hover .box777{
+    display: block;
+}
+.main .neikuan .neirong .neiList .box888{
+	width: 21px;
+	height: 47px;
+	background: #ccc;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	margin: auto 0;
+	left: 0px;
+	text-align: center;
+	line-height: 47px;
+	display: none;
+}
+.main .neikuan .neirong .neiList:hover .box888{
+    display: block;
+}
+.main .neikuan .neirong .neiList .box10{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #21a3f6;
+	margin-top: 49px;
+}
+.main .neikuan .neirong .neiList .box20{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 25px;
+}
+.main .neikuan .neirong .neiList .box20 a{
+	color:#333;
+}
+.main .neikuan .neirong .neiList .box30{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;	
+	margin-top: 13px;
+}
+.main .neikuan .neirong .neiList .box30 a{
+	color: #b0b0b0;
+}
+
+.main .neikuan .neirong .neiList .box50{
+	width: 100%;
+	margin-top: 50px;
+}
+.main .neikuan .neirong .neiList .box50 img{
+	width: 216px;
+	height: 154px;
+	display: block;
+	margin: 0 auto;
+}
+.main .neikuan .neirong .neiList .box60{
+	width: 100%;
+	height: 10px;
+	margin-top: 47px;
+}
+.main .neikuan .neirong .neiList .box60 .dot{
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #b0b0b0;
+	float: left;
+	margin-right: 28px;
+}
+.main .neikuan .neirong .neiList .box60 .dot:nth-child(1){
+	margin-left: 111px;
+	border: 2px solid #ff6b07;
+	background: #fff;
+}
+.main .neikuan .neirong .neiList .box70{
+	width: 21px;
+	height: 47px;
+	background: #ccc;
+	position: absolute;
+	top:0;
+	bottom:0;
+	margin: auto 0;
+	right: 0px;
+	text-align: center;
+	line-height: 47px;
+	display: none;
+}
+.main .neikuan .neirong .neiList:hover .box70{
+    display: block;
+}
+.main .neikuan .neirong .neiList .box80{
+	width: 21px;
+	height: 47px;
+	background: #ccc;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	margin: auto 0;
+	left: 0px;
+	text-align: center;
+	line-height: 47px;
+	display: none;
+}
+.main .neikuan .neirong .neiList:hover .box80{
+    display: block;
+}
+
+.main .neikuan .shipin{
+	width: 100%;
+	height: 325px;
+    margin-top: 21px;
+    margin-bottom: 120px;
+}
+.main .neikuan .shipin .top{
+	width: 100%;
+	height: 59px;
+	font-size: 20px;
+	line-height: 59px;
+	
+}
+.main .neikuan .shipin .content{
+	width: 100%;
+	height: 320px;
+}
+.main .neikuan .shipin .content .model{
+	width: 296px;
+	height: 325px;
+	margin-right: 14px;
+	float: left;
+	background: white;
+	position: relative;
+}
+.main .neikuan .shipin .content .model:hover{
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1) ;
+	transform: translateY(5px);
+}
+.main .neikuan .shipin .content .model:nth-child(4){
+	margin-right: 0;
+}
+.main .neikuan .shipin .content .model img{
+	width: 100%;
+	height: 180px;
+}
+.main .neikuan .shipin .content .model a{
+	display: block;
+}
+.main .neikuan .shipin .content .model p{
+	width: 240px;
+	height: 60px;
+	padding-left: 28px;
+	padding-right: 28px;
+	margin-top: 34px;
+	font-size: 14px;
+	color: #333;
+}
+.main .neikuan .shipin .content .model p a{
+	color: #333;
+}
+.main .neikuan .shipin .content .model .comment{
+	width: 240px;
+	padding-right: 28px;
+	padding-left: 28px;
+	color: #ccc;
+	font-size: 12px;
+	margin-top: 30px;
+}
+.main .neikuan .shipin .content .model .last{
+	width: 100%;
+	padding-right: 28px;
+	padding-left: 28px;
+	margin-top: 20px;
+
+}
+.main .neikuan .shipin .content .model .last .lastNAME{
+	display: inline;
+}
+.main .neikuan .shipin .content .model .last .jiage{
+	color: red;
+	font-size: 18px;
+}
+.main .neikuan .shipin .content .model .pinpai{
+	width: 100%;
+	color: #212121;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 40px;
+}
+.main .neikuan .shipin .content .model .des{
+	width: 100%;
+	color: #b0b0b0;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 14px;
+}
+.main .neikuan .shipin .content .model .box7{
+	width: 40px;
+	height: 25px;
+	background: #000;
+	position: absolute;
+	top:0;
+	bottom:0;
+	margin: auto 0;
+	left: 20px;
+	border-radius: 25px;
+}
+.main .neikuan .shipin .content .model .box7 .iconfont{
+	font-size: 13px;
+	color: #cdcac8;
+	margin-top: 13px;
+	margin-left: 13px;
+	text-align: center;
+}
+.main .neikuan .shipin .content .model .box7:hover{
+	background: orange;
+}
+.main .neikuan .shipin .content .model .box77{
+	width: 40px;
+	height: 25px;
+	background: #000;
+	position: absolute;
+	top:0;
+	bottom:0;
+	margin: auto 0;
+	left: 20px;
+	border-radius: 25px;
+}
+.main .neikuan .shipin .content .model .box77:hover{
+	background: orange;
+}
+.main .neikuan .shipin .content .model .box77 .iconfont{
+	font-size: 13px;
+	color: #cdcac8;
+	margin-top: 13px;
+	margin-left: 13px;
+	text-align: center;
+}
+footer{
+	width: 100%;	
+	height: 272px;
+	/* margin-top: 60px; */
+	float: left;
+}
+footer .neikuan .top{
+	width: 100%;
+	height: 79px;
+	border-bottom: 1px solid #e0e0e0;
+	
+}
+footer .neikuan .top .list{
+	width: 244px;
+	height: 25px;	
+	border-right: 1px solid #e0e0e0;
+	float: left;
+	margin-top: 27px;
+	text-align: center;
+}
+footer .neikuan .top .list:hover{
+	color: orange;
+}
+footer .neikuan .content{
+	width: 100%;
+	height: 191px;
+}
+footer .neikuan .content .left{
+	width: 976px;
+	overflow: hidden;
+	border-right: 1px solid #e0e0e0;	
+	margin-top: 40px;
+	float: left;
+}
+
+footer .neikuan .content .left d1{
+	width: 161px;
+	overflow: hidden;
+	float: left;
+}
+footer .neikuan .content .left d1 dt{
+	color: #333;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+footer .neikuan .content .left d1 dd:hover{
+	color: orange;
+}
+footer .neikuan .content .left d1 dd{
+	color:#757575;
+	font-size: 12px;
+	margin-bottom: 17px;
+}
+footer .neikuan .content .right{
+	width: 150px;
+	height: 114px;
+	margin-top: 40px;
+	float: left;
+	margin-left: 35px;
+}
+footer .neikuan .content .right .dianhua{
+	color: red;
+	font-size: 21px;
+	margin-left: 5px;
+}
+footer .neikuan .content .right .shijian{
+	color: #333;
+	font-size: 10px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+footer .neikuan .content .right .shihua{
+	color: #333;
+	font-size: 10px;
+	margin-left: 35px;
+	margin-top: 5px;
+}
+footer .neikuan .content .right .shihua{
+	color: #333;
+	font-size: 10px;
+	margin-left: 35px;
+	margin-top: 5px;
+}
+footer .neikuan .content .right .ershisi{
+	width: 120px;
+	height: 30px;
+	border: 1px solid orange;
+	color: orange;
+	font-size: 14px;
+	margin-left: 15px;
+	margin-top: 20px;
+	line-height: 30px;
+	text-align: center;
+}
+footer .neikuan .content .right .ershisi:hover{
+	background: orange;
+	color: white;
+}
+footer .neikuan{
+	background: white;
+}
+.dibu{
+	width: 1330px;
+	height: 166px;
+	background: #fafafa;
+	margin-top: 275px;	
+}
+.dibu .zuo{
+	width: 720px;
+	height: 94px;
+}
+.dibu .zuo img{
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.dibu .zuo .zi{
+	width: 600px;
+	height: 55px;
+	float: right;
+	margin-top: 30px;
+}
+.dibu .zuo .zi a{
+	color:#757575;
+	margin-left: -5px;
+	margin-right: -4px;
+	font-size: 10px
+}
+.dibu .zuo .zi a:hover{
+	color: orange;
+}
+.dibu .zuo .zi span{
+	color: #757575;
+}
+.dibu .zuo .zi .hao{
+	color:#757575;
+	margin-top: 5px;
+	margin-left: -5px;
+	margin-right: -4px;
+	font-size: 10px
+}
+.dibu .zuo .zi .hh a{
+	color:#757575;
+	margin-top: -14px;
+	margin-left: -5px;
+	margin-right: 30px;
+	font-size: 10px;
+	float: right;
+}
+.dibu .zuo .zi .hh a:hover{
+	color: orange;
+}
+.dibu .zuo .zi .zuixia{
+	color:#757575;
+	margin-top: 5px;
+	margin-left: -5px;
+	margin-right: -4px;
+	font-size: 10px
+}
+.dibu .you{
+	width: 460px;
+	height: 37px;
+	float: right;
+	margin-top: -62px;
+	margin-right: 42px;
+}
+.dibu .you img{
+	width: 84px;
+	height: 30px;
+}
+.dibu .xiaxia{
+	width: 285px;
+	height: 30px;
+	color: #757575;
+	margin-top: 37px;
+	margin-left: 525px;
+}
